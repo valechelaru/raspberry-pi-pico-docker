@@ -1,0 +1,5 @@
+// devcontainer.json
+{
+    "name": "raspberry pi pico",
+    "dockerFile": "Dockerfile"
+}
