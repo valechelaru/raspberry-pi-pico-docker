@@ -22,7 +22,7 @@ add_compile_options(-Wall
         )
 
 add_executable(blink-test src/main.c)
-target_link_libraries(blink-test pico_stdlib)
+target_link_libraries(blink-test pico_stdlib hardware_pwm hardware_pcm)
 pico_add_extra_outputs(blink-test)
 
 # example_auto_set_url(blink-test)
